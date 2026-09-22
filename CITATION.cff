@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the software, MIMIC-IV v3.1, and the article once published."
+title: "Early continuous neuromuscular blockade in severe hypoxemic respiratory failure: target trial emulation code"
+abstract: >-
+  R code and design documentation for a target trial emulation in MIMIC-IV
+  v3.1 comparing initiation of a continuous neuromuscular blocking agent
+  infusion within 12 hours of physiological eligibility with no initiation
+  during that window. The release includes cohort construction, baseline
+  severity enrichment, exact death-time integration, hourly grace-period
+  covariates, and the final clone-censor-weight analysis. Code only; no patient
+  data are distributed.
+type: software
+authors:
+  - family-names: "Orso"
+    given-names: "Daniele"
+    affiliation: "Emergency Department, Udine University Hospital, Azienda Sanitaria Universitaria Friuli Centrale, Udine, Italy"
+version: "1.0.0"
+date-released: 2026-09-22
+license: MIT
+repository-code: "https://github.com/sd7782do-sketch/early-nmba-target-trial"
+url: "https://github.com/sd7782do-sketch/early-nmba-target-trial"
+keywords:
+  - target trial emulation
+  - neuromuscular blockade
+  - acute hypoxemic respiratory failure
+  - clone-censor-weight
+  - overlap weighting
+  - MIMIC-IV
+references:
+  - type: dataset
+    title: "MIMIC-IV"
+    version: "3.1"
+    year: 2024
+    doi: "10.13026/kpb9-mt58"
+    url: "https://doi.org/10.13026/kpb9-mt58"
+    authors:
+      - family-names: "Johnson"
+        given-names: "Alistair"
+      - family-names: "Bulgarelli"
+        given-names: "Lucas"
+      - family-names: "Pollard"
+        given-names: "Tom"
+      - family-names: "Gow"
+        given-names: "Brian"
+      - family-names: "Moody"
+        given-names: "Benjamin"
+      - family-names: "Horng"
+        given-names: "Steven"
+      - family-names: "Celi"
+        given-names: "Leo Anthony"
+      - family-names: "Mark"
+        given-names: "Roger"
